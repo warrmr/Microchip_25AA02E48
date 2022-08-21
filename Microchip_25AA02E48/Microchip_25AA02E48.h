@@ -22,7 +22,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 #define MICROCHIP_25AA02E48_H
 
 #include "Arduino.h"
-#include <../SPI/SPI.h>
+#include <SPI.h>
 
 class Microchip_25AA02E48 {
 public:
