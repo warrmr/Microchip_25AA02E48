@@ -19,8 +19,8 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 // the eeprom communicates using SPI, so include the library:
-#include "SPI.h"
-#include "Microchip_25AA02E48.h"
+#include <SPI.h>
+#include <Microchip_25AA02E48.h>
 
 const uint8_t chipSelectPin = 6;
 
